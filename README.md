@@ -15,6 +15,7 @@ A modern, interactive clothes shop solution for **FiveM ESX** servers.
 * **⚙️ Easy configuration**
 * **⚡ Optimized performance**
 * **🎟️ Job-specific discounts**
+* **Available languages: Hungarian**
 
 **Preview:** [Watch Video](https://www.youtube.com/watch?v=cdmq1v2u-R4)
 **Support:** [Discord Server](https://discord.gg/43QuRqqUgV)
@@ -81,5 +82,7 @@ xen_clotheshop/
 ```
 
 ---
+<img width="1903" height="1057" alt="Képernyőkép 2025-08-03 013516" src="https://github.com/user-attachments/assets/45f881b2-188a-4c7e-b004-f323f2ddc1a7" />
+
 
 **Xen Clotheshop** — Designed for seamless integration and maximum customization.
