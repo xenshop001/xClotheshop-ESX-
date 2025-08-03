@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Clothes Shop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app" class="wrap" style="display:none">
+            <header class="head">
+                <div class="title">
+                    <span class="pill">SHOP</span>
+                    <h1>Clothes</h1>
+                </div>
+                <div class="act">
+                    <div class="camtools">
+                        <button id="camLeft" class="btn icon">⟲</button>
+                        <button id="camRight" class="btn icon">⟳</button>
+                        <button id="camIn" class="btn icon">＋</button>
+                        <button id="camOut" class="btn icon">－</button>
+                        <button id="btnPeek" class="btn">Elrejt</button>
+                    </div>
+                    <button id="btnCancel" class="btn danger">Mégse</button>
+                    <button id="btnBuy" class="btn primary">Vásárlás</button>
+                </div>
+            </header>
+            <div class="grid">
+                <aside class="left">
+                    <nav class="tabs" id="tabList"></nav>
+                    <div class="summary">
+                        <div class="row">
+                            <span>Összesítő</span>
+                            <span id="sumPrice">0 $</span>
+                        </div>
+                        <div class="muted" id="sumHint">Ár a változtatott elemek alapján</div>
+                    </div>
+                </aside>
+                <main class="right">
+                    <div id="controls"></div>
+                </main>
+            </div>
+        </div>
+        <div id="toasts" class="toasts"></div>
+        <script src="app.js"></script>
+    </body>
+</html>
