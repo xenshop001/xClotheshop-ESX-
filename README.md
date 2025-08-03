@@ -1,36 +1,54 @@
-🛠️ Features
-NUI based modern interface
+# 🛍️ Xen Clotheshop
 
-Detailed clothing category management
+A modern, interactive clothes shop solution for **FiveM ESX** servers.
 
-Tops, pants, shoes, hats, accessories, etc.
+## 🌟 Features
 
-Buy clothes
+* **🎨 NUI-based modern interface**
+* **👔 Detailed clothing categories**
 
-Interactive camera management
+  * Tops, pants, shoes, hats, accessories, and more
+* **🛒 Easy clothing purchase**
+* **🎥 Interactive camera management**
 
-Automatic camera switching based on the selected clothing item (top, pants, shoes, etc.)
+  * Automatically adjusts based on selected clothing item (top, pants, shoes, etc.)
+* **⚙️ Easy configuration**
+* **⚡ Optimized performance**
+* **🎟️ Job-specific discounts**
 
-Easy to configure
+**Preview:** [Watch Video](https://www.youtube.com/watch?v=cdmq1v2u-R4)
+**Support:** [Discord Server](https://discord.gg/43QuRqqUgV)
 
-Optimized performance
+---
 
-🖥️ Technical details
-🔧 Dependencies
-ESX Legacy (1.9.0+ recommended)
+## 🖥️ Technical Details
 
-oxmysql (for database management)
+### 🔧 Dependencies
 
-skinchanger or esx_skin (character wardrobe support)
+* `es_extended` (ESX Legacy 1.9.0+ recommended)
+* `oxmysql` (for database management)
+* `skinchanger` or `esx_skin` (character wardrobe support)
 
-**Discounts Can Be Set for Specific Jobs**
-```
+---
+
+## 🎯 Special Features
+
+### 🎖️ Job-Specific Discounts
+
+Easily configure custom discounts for specific jobs or ranks:
+
+```lua
 Config.Discounts = {
-  { job='police',    grade=3, percent=20 },
-  { job='ambulance', grade=0, percent=10 },
+  { job = 'police',    grade = 3, percent = 20 },
+  { job = 'ambulance', grade = 0, percent = 10 },
 }
 ```
-```
+
+---
+
+### 🗺️ Shop Configuration Example
+
+```lua
 Config.Shops = {
   {
     name = 'Ponsonbys Rockford',
@@ -41,3 +59,27 @@ Config.Shops = {
     radius = 2.0
   }
 }
+```
+
+---
+
+## 📂 Folder Structure (Example)
+
+```
+xen_clotheshop/
+├── client/
+│   ├── main.lua
+│   └── camera.lua
+├── server/
+│   └── main.lua
+├── config.lua
+├── fxmanifest.lua
+└── html/
+    ├── index.html
+    ├── app.js
+    └── style.css
+```
+
+---
+
+**Xen Clotheshop** — Designed for seamless integration and maximum customization.
